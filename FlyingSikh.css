@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #e0e1dd;
+  color: #1b263b;
+  font-family: "Roboto Slab", serif;
+}
+
+.head {
+  color: #0d1b2a;
+  position: relative;
+  width: 90%;
+  padding: 30px;
+}
+#img-caption {
+  font-size: 20px;
+  margin-top: 10px;
+}
+#info {
+  font-size: 20px;
+  font-weight: 200;
+}
+#table {
+  position: relative;
+  margin: auto;
+  width: 90%;
+}
+
+#life-phase > ul > li {
+  margin: 10px 0;
+}
